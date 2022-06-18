@@ -1,4 +1,38 @@
-body{
-    display: flex;
-    flex-direction: column;
+body, h1, h2, ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    height: 20vh;
+    background-color: #1f2937;
+
+}
+
+.section{
+    height:70vh;
+}
+
+.sone{
+    background-color: #1f2937;
+
+}
+.stwo{
+
+}
+.sthree{
+    background-color: #E5E7Eb;
+
+}
+
+.sfour{
+
+    height: 50vh;
+
+}
+.footer{
+    background-color: #1f2937;
+    height: 10vh;
+
 }
