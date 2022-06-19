@@ -5,10 +5,36 @@ body, h1, h2, ul{
 
 
 .header{
-    height: 20vh;
+    height: 10vh;
     background-color: #1f2937;
+    color: #F9FAf8;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header > *{
+    flex:1;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.header > ul{
+    color: #E5E7Eb;
+    font-size: 18px;
+    list-style:none;
+    display: flex;
+    gap:40px;
 
 }
+/*------------------- SECTION 1------------------------*/
+
 
 .section{
     height:70vh;
@@ -16,11 +42,53 @@ body, h1, h2, ul{
 
 .sone{
     background-color: #1f2937;
+    color: #F9FAf8;
+    padding-left:200px;
+    display: flex;
+    align-items: center;
+}
+
+.sone>*{
+    flex:1;
+}
+
+.sone-left{
+    padding-right: 150px;
+}
+
+.sone-left > h1{
+    font-size: 48px;
+    font-weight: extra-bold;
 
 }
-.stwo{
+
+.sone-right>img{
+
+    width: 35vw;
+    height: 30vh;
+    max-width:509px ;
 
 }
+
+.sone-left>button{
+
+    background-color: #3882f6;
+    color:#E5E7Eb;
+    font-size: 18px;
+    font-weight: bold;
+    width: 125px;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+
+}
+
+
+/*------------------- SECTION 2------------------------*/
+.stwo{  
+
+}
+
 .sthree{
     background-color: #E5E7Eb;
 
