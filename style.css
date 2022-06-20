@@ -37,7 +37,7 @@ body, h1, h2, ul{
 
 
 .section{
-    height:70vh;
+    height:60vh;
 }
 
 .sone{
@@ -86,9 +86,44 @@ body, h1, h2, ul{
 
 /*------------------- SECTION 2------------------------*/
 .stwo{  
-
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    padding-top: 75px;
+    padding-left: 300px;
+    padding-right: 300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
 }
 
+.stwo-content{
+    display:flex;
+    gap:100px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.squarePic{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.card>p{
+    font-size: 18px;
+    text-align: center;
+    color: #464747;
+    width: 150px;
+}
+
+
+
+/*------------------- SECTION 3------------------------*/
 .sthree{
     background-color: #E5E7Eb;
 
