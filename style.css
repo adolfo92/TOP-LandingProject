@@ -33,13 +33,17 @@ body, h1, h2, ul{
     gap:40px;
 
 }
-/*------------------- SECTION 1------------------------*/
+
+
+/*------------------- SECTIONS GENERAL------------------------*/
 
 
 .section{
     height:60vh;
 }
 
+
+/*------------------- SECTION 1------------------------*/
 .sone{
     background-color: #1f2937;
     color: #F9FAf8;
@@ -126,14 +130,40 @@ body, h1, h2, ul{
 /*------------------- SECTION 3------------------------*/
 .sthree{
     background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
+.sthreeContent{
+    max-width: 1000px;  
+}
+
+cite{
+    padding:0;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.sthreeContent>p{
+    font-size: 24px;
+    padding-right: 60px;
+    margin:0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*------------------- SECTION 4------------------------*/
 .sfour{
-
-    height: 50vh;
+    height: 45vh;
 
 }
+
+/*------------------- FOOTER ------------------------*/
 .footer{
     background-color: #1f2937;
     height: 10vh;
